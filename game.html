@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body class="main">
+    <div class="main2">
+
+        <div class="container1">
+
+            <h3> Guess the random number <br> between 1-100 </h3>
+
+            <img src="guess.jpg" alt="Guess" class="image1">
+            <div class="mainchild">
+                <h3> Select the difficulty</h3>
+                <div class="child4">
+                    <button class="button1"> Very Easy:10 Attempts</button>
+                    <button class="button2"> Easy: 7 Attempts</button>
+                    <button class="button3">Hard:5 Attempts</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+
+            <div class="contchild2">
+
+                <div class="grandchild1">
+                    <button class="back">Back</button>
+                </div>
+                <div class="containerchild2">
+
+                    <h2 class="guess">Your Guess</h2>
+
+                    <input type="number" min="1" max="100" class="input" placeholder="Choose your Guess">
+                    <div class="number1">
+                        <h3 class="h3">Number of Gusses</h3>
+                        <h3 class="h3"> 0 </h3>
+                    </div>
+                    <div class="number2">
+                        <h3 class="h3">Your Guesses are :</h3> &ThickSpace;
+                        <h3 class="h3" id="chosen"></h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="game.js"></script>
+</body>
+
+</html>
